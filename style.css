@@ -2,11 +2,12 @@
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
     display: grid;
-    grid-template-rows: 100px 100px 100px;
-    grid-auto-columns:100px;
-    /* grid-template-columns: 100px 100px; */
+    grid-template-columns: repeat(2, 100px);
     grid-auto-flow: column;
-    gap: 20px;
+    grid-template-rows: 100px 100px;
+    height: 600px;
+    place-content: center;
+    place-items: end;
 }
 
 .item{
