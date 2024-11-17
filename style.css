@@ -2,8 +2,14 @@
     border: 5px solid #e1bee7;
     background-color: white;
     display: grid;
-    grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.contenedor-2{
+    border: 5px solid #e1bee7;
+    background-color: white;
+    margin-top:100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 .item{
     border: 5px solid #00bcd4;
